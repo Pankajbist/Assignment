@@ -20,7 +20,7 @@ count++;
 
 count      
 
-//Q3) calculate the sum of all the odd numbers inside this nested array
+//Q2) calculate the sum of all the odd numbers inside this nested array
 const newArr = [[4,5], [5,7], [7,2]]
  
 const newArr = [[4, 5], [5, 7], [7, 2]];
