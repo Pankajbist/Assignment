@@ -36,4 +36,31 @@ for (let i = 0; i < userDetails.length; i++) {
 
 console.log(userDetails);
 
+//Q3
+const arr1 = ['ram','shyam','hari']
+const arr2 = ['ram','shyam','hari','gopal','krish']
+
+// const tempArr = []
+
+//  arr2.map((item)=>{
+//      if (!arr1.includes(item)) {
+//        tempArr.push(item)
+//        // console.log(item)
+//        //   console.log(arr1.includes(item))
+     
+//      }
+//           })
+
+//   console.log(tempArr)
+
+
+ arr2.filter((item)=>{
+     if (!arr1.includes(item)) {
+
+     return item
+     }
+          })
+
+
+// ['gopal','krish']
 
